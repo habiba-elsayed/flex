@@ -1,0 +1,81 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+margin:0;
+padding:0;
+}
+
+:root{
+--dark:#2b2d42;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+.s-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    height: 50%;
+    padding: 1rem;
+}
+body{
+    background-color: rgb(181, 181, 243);
+    font-family: 'lato', sans-serif;
+}
+.item{
+    background-color: white;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--dark)
+
+}
+.item:hover{
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.3);
+    }
+img{
+    height: 50%;
+    width: 100%;
+}
+.addition{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    margin-top: 100px;
+}
+i{
+    font-size: 25px;
+}
+h1{
+    color: var(--dark);
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 30px;
+}
+.click{
+    border-radius: 10px;
+    width: fit-content;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    justify-content: start;
+    margin: 10px 0;
+    padding: 3px 10px;
+}
+p{
+    margin: 15px 0;
+    height: 30%;
+}
